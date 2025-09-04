@@ -2,7 +2,7 @@ package aula03;
 
 public class Sistema {
     public static void main(String[] args) {
-        Cliente cliente = new Cliente();
+        Cliente cliente = new Cliente("Pedro Sales");
 
         System.out.println(cliente.limiteCredito);
 

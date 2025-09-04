@@ -12,4 +12,8 @@ public class Cliente {
     public void comprar(Double valorProduto) {
         limiteCredito -= valorProduto;
     }
+
+    public Cliente (String nomeInformado) {
+        nome = nomeInformado;
+    }
 }
