@@ -1,11 +1,13 @@
 package aula07;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class ClassesData {
     public static void main(String[] args) {
-        LocalDate localDate = LocalDate.now(); // possui métodos próprios
+        LocalDate localDate = LocalDate.now(); // possui métodos próprios, dia mes e ano
         LocalDate localDate2 = LocalDate.of(2025, 2, 4); // possui métodos próprios
 
 
@@ -26,6 +28,14 @@ public class ClassesData {
 
         System.out.println(localDate2.isAfter(localDate));
         System.out.println(localDate2.isBefore(localDate));
+
+        LocalTime localTime = LocalTime.now(); // só hora, segundo e minuto
+
+        System.out.println(localTime);
+
+        LocalDateTime  localDateTime = LocalDateTime.now(); // junção do localTime e o localDate
+
+        System.out.println(localDateTime);
 
 
     }
