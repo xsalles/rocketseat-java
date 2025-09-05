@@ -1,5 +1,6 @@
 package aula06;
 
+// se tornou uma classe abstrata, logo, você irá definir a maneira que os métodos serão executados por outras classes.
 public class MSNMessengerMethods {
     public void enviarMensagem(String mensagem) {
         validarConexaoInternet();

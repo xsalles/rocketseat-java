@@ -8,6 +8,5 @@ public class ComputadorPedrinho {
         msnMessengerApplication.receberMensagem("mensagem"); // nem tudo precisa estar visível, encapsulamento
        // msnMessengerApplication.salvarHistoricoMensagem();
      //   msnMessengerApplication.validarConexaoInternet();
-
     }
 }
